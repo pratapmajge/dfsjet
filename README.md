@@ -81,4 +81,9 @@ Metrics are calculated for matched hourly periods.
 
 ## Docker Build
 
-GitHub Actions builds the Docker image on pushes and pull requests targeting `main`, and supports manual runs. The workflow verifies the image build without pushing it to a container registry.
+GitHub Actions builds the Docker image on pushes and pull requests targeting `main`, and supports manual runs. The workflow verifies the image build without pushing it to a container registr
+.
+
+## AI Usage
+
+ChatGPT and AI assistants were used to support development, debugging, problem-solving, and documentation. AI-generated suggestions were reviewed and tested during implementation.
