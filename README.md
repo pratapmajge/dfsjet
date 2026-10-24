@@ -3,6 +3,7 @@
 A full-stack dashboard for comparing UK wind generation forecasts with actual generation for January 2026 using Elexon BMRS data.
 
 **Live Demo:** https://wind-forecast-hfs5.onrender.com/
+**YouTube URL:** https://youtu.be/7uHJo6n9qHI
 
 ## Features
 
