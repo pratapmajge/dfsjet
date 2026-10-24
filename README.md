@@ -42,6 +42,26 @@ npm run dev
 ```
 The Vite dev server is configured to proxy `/api` to `http://localhost:8000`.
 
+## GitHub Actions
+
+A GitHub Actions workflow is configured to build the Docker image on:
+- Pushes to the `main` branch
+- Pull requests targeting the `main` branch
+- Manual workflow dispatch
+
+To run the workflow manually:
+1. Go to the **Actions** tab in your GitHub repository
+2. Select **Docker Build** workflow
+3. Click **Run workflow**
+4. Choose the branch and click **Run workflow**
+
+To check the workflow status:
+1. Navigate to the **Actions** tab
+2. View the latest run under **Docker Build**
+3. Click on the run to see build logs and results
+
+The workflow uses Docker Buildx on an Ubuntu runner and builds the image without pushing to any registry.
+
 ## Data sources
 - Actual generation: `FUELHH` stream, filtered to `fuelType=WIND`.
 - Wind forecast: `WINDFOR` stream.
